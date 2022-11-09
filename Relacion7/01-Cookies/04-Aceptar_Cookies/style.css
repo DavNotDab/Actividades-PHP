@@ -1,0 +1,46 @@
+body {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.aceptar {
+    position: absolute;
+    margin-top: 90px;
+    background-color: #a2efa2;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+button {
+    background-color: #5faf75;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    transition: .3s ease-out;
+}
+
+button:hover {
+    background-color: #40be40;
+    cursor: pointer;
+    border: 5px solid #000000;
+    margin-bottom: -3px;
+    margin-top: 27px;
+}
+
+p {
+    font-size: 1.2em;
+    max-width: 1200px;
+}

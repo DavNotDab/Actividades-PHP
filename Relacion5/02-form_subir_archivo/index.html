@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario archivos</title>
+</head>
+<body>
+    <h1>Contacto con imagen</h1>
+
+    <form action="01-input_file.php" method="post" enctype="multipart/form-data">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" required="true">
+        </p>
+        <p>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo">
+        </p>
+        <p>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" placeholder="Manda una foto">
+        </p>
+        
+        <button name="submit">Enviar</button>
+    </form>
+
+
+</body>
+</html>

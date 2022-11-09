@@ -1,0 +1,7 @@
+Plan;Gratis;Bronce;Plata;Oro
+Descargas/dia;3;10;25;100
+Iconos;NO;SI;SI;SI
+Colores;NO;NO;SI;SI
+Tamanios;NO;NO;NO;SI
+SVG;NO;NO;NO;SI
+Precio/Mes;0,00;9,99;19,99;29,99

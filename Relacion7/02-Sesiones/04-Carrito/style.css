@@ -1,0 +1,41 @@
+body {
+    background-color: #9a9a9a;
+}
+
+.contenido {
+    width: 700px;
+}
+
+h2 {
+    text-align: center;
+    background-color: yellow;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    margin: 5px;
+}
+
+#tabla th{
+    background-color: yellow;
+    padding: 5px 10px;
+}
+
+#tabla td{
+    font-weight: bold;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+}

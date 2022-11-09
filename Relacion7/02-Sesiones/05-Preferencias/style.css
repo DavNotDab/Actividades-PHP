@@ -1,0 +1,10 @@
+fieldset {
+    border: 1px black solid;
+}
+
+input, select {
+    margin: 5px 0;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    border: 1px darkgray solid;
+}
